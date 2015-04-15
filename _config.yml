@@ -1,0 +1,35 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Deversity
+tagline:          Development Services
+url:              http://www.deversity.uk
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+baseurl:          /
+
+author:
+  name:           Oliver Pearmain
+  url:            http://www.oliverpearmain.com
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/Deversity/deversity.github.io
+
+
+
+
+
+# This below is required in order to support redirects (see the following URLs for details):
+#   https://help.github.com/articles/redirects-on-github-pages/
+#   https://help.github.com/articles/using-jekyll-plugins-with-github-pages/
+gems:
+  - jekyll-redirect-from
